@@ -1,0 +1,108 @@
+body {
+    background: url("../assets/uwater.jpeg");
+}
+nav {
+    margin-left: 10%;
+}
+nav a {
+    display: inline-block;
+    margin: 20px 0px 40px 0px;
+    text-decoration: none;
+    padding: 15px 45px;
+    border-radius: 5px;
+    color: black;
+    font-size: 28px;
+    background: #FFF;
+    border:1px solid black;
+    float: left;
+}
+.clearfix:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+a:hover {
+    opacity: 0.5;
+    filter: alpha (opacity=50);
+}
+a:focus {
+    background: #FFF;
+}
+a:active {
+    background: #0087cc;
+    box-shadow: 0 2px 0 #006599;
+    transform: translateY(3px);     
+}
+a:visited {
+    background: #FFD;
+}
+
+
+@media only screen and (max-width: 700px){
+    a {
+        width: 25%;
+        margin: 6px 5px;
+    }
+}
+
+@media only screen and (max-width: 500px){
+    a {
+        width: 100%;
+    }
+}
+img {
+    height: 150px;
+    width: 20%;
+    float: left;
+    border: 1px solid black;
+    margin-right: 20px; 
+    margin-bottom: 5px;
+    border-radius: 50%;
+    padding: 10px;
+    background-color: #FFE;
+    transition: border-radius 2s;
+}
+
+
+
+div img:hover {
+    border: 1px dotted #777;
+    border-radius: 3px;
+    background-color: #FFC;
+}
+div.img img {
+    width: 100%;
+    height: 150px;
+}
+
+div.desc {
+    text-align: center;
+    padding: 5px;
+    color: #FFF;
+    font:24px sans-serif;
+}
+
+.responsive {
+    padding: 0px 10px;
+    float: left;
+    width: 20%;
+    margin-left: 10px;
+}
+
+@media only screen and (max-width: 700px){
+    .responsive {
+        width: 45%;
+        margin: 6px 5px;
+    }
+}
+
+@media only screen and (max-width: 500px){
+    .responsive {
+        width: 100%;
+    }
+}
+.clearfix:after {
+    content: "";
+    display: block;
+    clear: both;
+}
